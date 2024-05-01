@@ -206,9 +206,7 @@
             "type": "ImageChange",
             "imageChangeParams": {
               "automatic": true,
-              "containerNames": [
-                "${MONGODB_APPLICATION_NAME}"
-              ],
+              "containerNames": ["${MONGODB_APPLICATION_NAME}"],
               "from": {
                 "kind": "ImageStreamTag",
                 "namespace": "openshift",
